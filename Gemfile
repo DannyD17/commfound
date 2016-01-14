@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+ruby '2.2.3'
+
+gem 'bootstrap-generators'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
@@ -35,6 +38,15 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'guard-rspec', require: false
+  gem 'guard-bundler'
+  gem 'launchy'
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
+  gem 'capybara'
+  gem 'faker'
+  gem 'shoulda-matchers'
+  gem 'quiet_assets'
 end
 
 group :development do
