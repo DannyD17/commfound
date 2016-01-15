@@ -21,16 +21,16 @@
 */
 
 .navbar-fixed-top {
-    top: 50px;
+    top: 120px;
 }
 
 #header {
     position: fixed;
     top: 0;
-    height: 50px;
+    height: 120px;
     width: 100%;
 }
 
 body {
-    padding-top: 100px;
+    padding-top: 170px;
 }
