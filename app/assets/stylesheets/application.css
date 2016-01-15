@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+
+/* ---------------------- Custom CSS begins here ---------------------- */
+
+/* This controls the padding for the header image and the offset navbar. The body
+   needs to be padded as well or the body content will be overlaid by the navbar
+*/
+
+.navbar-fixed-top {
+    top: 50px;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+}
+
+body {
+    padding-top: 100px;
+}
