@@ -48,3 +48,10 @@ body {
     color: black;
     font-size: 1.5em;
 }
+
+/* Homepage blocks */
+
+.homepage-block {
+    margin: 8px -5px 8px -5px;
+    padding: 10px;
+}
