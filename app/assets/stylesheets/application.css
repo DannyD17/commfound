@@ -16,8 +16,8 @@
 
 /* ---------------------- Custom CSS begins here ---------------------- */
 
-/* This controls the padding for the header image and the offset navbar. The body
-   needs to be padded as well or the body content will be overlaid by the navbar
+/* This controls the padding for the header image and the offset top navbar. The body
+   needs to be padded as well or the body content will be overlapped by the navbar
 */
 
 .navbar-fixed-top {
@@ -33,6 +33,14 @@
 
 body {
     padding-top: 170px;
+}
+
+/* Footer */
+
+#footer {
+    position: relative;
+    border-top: solid medium #e0e8c0;
+    padding: 10px;
 }
 
 /* Carousel caption well */
