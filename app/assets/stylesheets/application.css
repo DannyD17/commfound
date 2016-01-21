@@ -26,6 +26,16 @@
     position: static;
 }
 
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
 #banner {
     top: 0;
     height: 120px;
