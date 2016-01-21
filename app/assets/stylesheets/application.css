@@ -59,6 +59,10 @@ header {
     border-color: #e0e8c0 !important;
 }
 
+.navbar-inverse .navbar-nav > li > a {
+    color: black;
+}
+
 /* Footer */
 
 #footer {
