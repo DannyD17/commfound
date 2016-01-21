@@ -18,9 +18,10 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<header>
   <div class="container">
-    <div id="header">
-      <div style="padding-top: 10px;">
+    <div id="banner">
+      <div id="banner-logo">
         <a href="<%= root_path %>"><%= image_tag('homepage/header_logo.jpg') %></a>
       </div>
     </div>
@@ -39,6 +40,7 @@
       </div>
     </div>
   </nav>
+</header>
   <div class="container">
     <% flash.each do |name, msg| %>
       <%= content_tag :div, class: "alert alert-#{ name == :error ? "danger" : "success" } alert-dismissable", role: "alert" do %>

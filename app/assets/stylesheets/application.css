@@ -24,13 +24,17 @@
     top: 120px;
 }
 
-#header {
+#banner {
     position: fixed;
     top: 0;
     height: 120px;
     width: 100%;
     background-color: white;
     z-index: 1;
+}
+
+#banner-logo {
+    padding-top: 10px;
 }
 
 body {
