@@ -54,6 +54,11 @@ header {
     top: -170px; // same as header height. use variables in LESS/SASS
 }
 
+.navbar-inverse {
+    background-color: #e0e8c0 !important;
+    border-color: #e0e8c0 !important;
+}
+
 /* Footer */
 
 #footer {
