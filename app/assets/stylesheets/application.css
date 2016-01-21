@@ -96,3 +96,11 @@ header {
     padding: 10px;
     height: 140px;
 }
+
+.homepage-block > * {
+    text-align: center;
+}
+
+#homepage-long-block {
+    font-size: 1.5em;
+}
