@@ -22,10 +22,10 @@
 
 .navbar-fixed-top {
     top: 120px;
+    position: static;
 }
 
 #banner {
-    position: fixed;
     top: 0;
     height: 120px;
     width: 100%;
@@ -39,6 +39,19 @@
 
 body {
     padding-top: 170px;
+}
+
+header {
+    height: 170px;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-up {
+    top: -170px; // same as header height. use variables in LESS/SASS
 }
 
 /* Footer */
